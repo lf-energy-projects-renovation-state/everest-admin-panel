@@ -1,18 +1,12 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base",
-    "group:allNonMajor",
-    ":semanticCommitTypeAll(chore)"
+    "config:recommended",
+    ":disableRateLimiting"
   ],
-  "rangeStrategy": "bump",
-  "labels": ["dependencies"],
-  "ignoreDeps": ["esbuild", "node"],
-  "packageRules": [
-    {
-      "matchDepNames": ["typescript"],
-      "rangeStrategy": "replace",
-      "groupName": "typescript"
-    }
-  ]
+  "labels": ["dependencies", "depManager:{{{manager}}}"],
+  "vulnerabilityAlerts": {
+    "labels": ["security", "dependencies", "depManager:{{{manager}}}"],
+  },
+  "forkProcessing": "enabled"
 }
