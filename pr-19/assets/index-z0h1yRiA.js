@@ -9,7 +9,7 @@ var __publicField = (obj, key, value) => {
   return value;
 };
 var require_index_001 = __commonJS({
-  "assets/index-VNUVij5V.js"(exports, module) {
+  "assets/index-z0h1yRiA.js"(exports, module) {
     var _a;
     (function polyfill() {
       const relList = document.createElement("link").relList;
@@ -77230,6 +77230,12 @@ Reason: ${error2}`);
                     "compact"
                   ],
                   "default": "default"
+                },
+                "indent": {
+                  "type": [
+                    "boolean",
+                    "integer"
+                  ]
                 },
                 "removeAdditional": {
                   "description": "true is the same as 'unknown', false is the same as 'none'",
