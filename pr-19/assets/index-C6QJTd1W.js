@@ -9,7 +9,7 @@ var __publicField = (obj, key, value) => {
   return value;
 };
 var require_index_001 = __commonJS({
-  "assets/index-z0h1yRiA.js"(exports, module) {
+  "assets/index-C6QJTd1W.js"(exports, module) {
     var _a;
     (function polyfill() {
       const relList = document.createElement("link").relList;
@@ -77104,7 +77104,8 @@ Reason: ${error2}`);
           "required": [
             "type",
             "expr",
-            "pure"
+            "pure",
+            "dataAlias"
           ],
           "properties": {
             "type": {
@@ -77120,6 +77121,9 @@ Reason: ${error2}`);
             },
             "pure": {
               "type": "boolean"
+            },
+            "dataAlias": {
+              "type": "string"
             },
             "ref": {
               "type": "integer",
