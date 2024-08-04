@@ -9,8 +9,8 @@ dependencies:
     specifier: ^4.5.5
     version: 4.5.5
   '@fontsource/roboto':
-    specifier: 5.0.13
-    version: 5.0.13
+    specifier: 5.0.14
+    version: 5.0.14
   '@highlightjs/vue-plugin':
     specifier: ^2.1.0
     version: 2.1.0(highlight.js@11.9.0)(vue@3.4.26)
@@ -1640,8 +1640,8 @@ packages:
     resolution: {integrity: sha512-ah6DBSWgjWEG20tVJnvcUQ/8XTfnGpuOGK4HLTF91vtrGg7PyrdEMlao/O1+S4i+SzeuJCmf5Qbc3eWponBL3Q==}
     dev: false
 
-  /@fontsource/roboto@5.0.13:
-    resolution: {integrity: sha512-j61DHjsdUCKMXSdNLTOxcG701FWnF0jcqNNQi2iPCDxU8seN/sMxeh62dC++UiagCWq9ghTypX+Pcy7kX+QOeQ==}
+  /@fontsource/roboto@5.0.14:
+    resolution: {integrity: sha512-zHAxlTTm9RuRn9/StwclFJChf3z9+fBrOxC3fw71htjHP1BgXNISwRjdJtAKAmMe5S2BzgpnjkQR93P9EZYI/Q==}
     dev: false
 
   /@highlightjs/vue-plugin@2.1.0(highlight.js@11.9.0)(vue@3.4.26):
