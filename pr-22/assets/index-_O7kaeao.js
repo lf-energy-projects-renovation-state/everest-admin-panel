@@ -9,7 +9,7 @@ var __publicField = (obj, key, value) => {
   return value;
 };
 var require_index_001 = __commonJS({
-  "assets/index-1-xO8qbV.js"(exports, module) {
+  "assets/index-_O7kaeao.js"(exports, module) {
     var _a;
     (function polyfill() {
       const relList = document.createElement("link").relList;
@@ -8038,7 +8038,7 @@ var require_index_001 = __commonJS({
     }
     const App = /* @__PURE__ */ _export_sfc(_sfc_main$F, [["render", _sfc_render$7]]);
     /*!
-      * vue-router v4.4.2
+      * vue-router v4.4.3
       * (c) 2024 Eduardo San Martin Morote
       * @license MIT
       */
