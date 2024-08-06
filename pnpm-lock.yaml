@@ -15,8 +15,8 @@ dependencies:
     specifier: ^2.1.0
     version: 2.1.0(highlight.js@11.9.0)(vue@3.4.26)
   '@json-layout/core':
-    specifier: ^0.15.1
-    version: 0.15.1
+    specifier: ^0.31.0
+    version: 0.31.0
   '@json-layout/vocabulary':
     specifier: ^0.15.0
     version: 0.15.0(ajv@8.13.0)
@@ -467,6 +467,7 @@ packages:
     hasBin: true
     dependencies:
       '@babel/types': 7.24.5
+    dev: true
 
   /@babel/parser@7.24.5:
     resolution: {integrity: sha512-EOv5IK8arwh3LI47dz1b0tKUb/1uhHAnHJOrjgtQMIpu1uXd9mlFrJg9IUgGUgZ41Ch0K8REPTYpO7B76b4vJg==}
@@ -1741,8 +1742,35 @@ packages:
       - supports-color
     dev: false
 
+  /@json-layout/core@0.31.0:
+    resolution: {integrity: sha512-QSHcQYFYUbYgojJkIVkmNyX+D2RCZd/sAz0kT5xG6RvZHB4fc715jTEkynKPbogAnfOunRks1gkpW8styrO9hg==}
+    dependencies:
+      '@json-layout/vocabulary': 0.23.0(ajv@8.13.0)
+      '@types/markdown-it': 13.0.7
+      ajv: 8.13.0
+      ajv-errors: 3.0.0(ajv@8.13.0)
+      ajv-formats: 2.1.1(ajv@8.13.0)
+      ajv-i18n: 4.2.0(ajv@8.13.0)
+      debug: 4.3.4(supports-color@8.1.1)
+      immer: 10.0.3
+      magicast: 0.3.3
+      markdown-it: 13.0.2
+    transitivePeerDependencies:
+      - supports-color
+    dev: false
+
   /@json-layout/vocabulary@0.15.0(ajv@8.13.0):
     resolution: {integrity: sha512-e3PJeEFsznD2l+SErwZN6FAWl6LyHicDysJQfCdYP0GVqdQAJd3WTGVV8qUAnXx3aKZVYUh0LWrCgcwmlazexg==}
+    dependencies:
+      ajv-formats: 2.1.1(ajv@8.13.0)
+      debug: 4.3.4(supports-color@8.1.1)
+    transitivePeerDependencies:
+      - ajv
+      - supports-color
+    dev: false
+
+  /@json-layout/vocabulary@0.23.0(ajv@8.13.0):
+    resolution: {integrity: sha512-zaLs3kswXmrjelksCJDIS/2v8Grm1ukMhb6WXm03gN86l4hIlJgNgV3GlbqJcu3KSCEuJcB8DHbKp55bkbmiJg==}
     dependencies:
       ajv-formats: 2.1.1(ajv@8.13.0)
       debug: 4.3.4(supports-color@8.1.1)
@@ -2312,11 +2340,11 @@ packages:
   /@vue/compiler-core@3.4.19:
     resolution: {integrity: sha512-gj81785z0JNzRcU0Mq98E56e4ltO1yf8k5PQ+tV/7YHnbZkrM0fyFyuttnN8ngJZjbpofWE/m4qjKBiLl8Ju4w==}
     dependencies:
-      '@babel/parser': 7.24.0
+      '@babel/parser': 7.24.5
       '@vue/shared': 3.4.19
       entities: 4.5.0
       estree-walker: 2.0.2
-      source-map-js: 1.0.2
+      source-map-js: 1.2.0
     dev: true
 
   /@vue/compiler-core@3.4.26:
@@ -4466,9 +4494,9 @@ packages:
   /magicast@0.3.3:
     resolution: {integrity: sha512-ZbrP1Qxnpoes8sz47AM0z08U+jW6TyRgZzcWy3Ma3vDhJttwMwAFDMMQFobwdBxByBD46JYmxRzeF7w2+wJEuw==}
     dependencies:
-      '@babel/parser': 7.24.0
+      '@babel/parser': 7.24.5
       '@babel/types': 7.24.5
-      source-map-js: 1.0.2
+      source-map-js: 1.2.0
 
   /make-dir@4.0.0:
     resolution: {integrity: sha512-hXdUTZYIVOt1Ex//jAQi+wTZZpUpwBj/0QsOzqegb3rGMMeJiSEu5xLHnYfBrRV4RH2+OCSOO95Is/7x1WJ4bw==}
