@@ -18,8 +18,8 @@ dependencies:
     specifier: ^0.15.1
     version: 0.15.1
   '@json-layout/vocabulary':
-    specifier: ^0.15.0
-    version: 0.15.0(ajv@8.13.0)
+    specifier: ^0.23.0
+    version: 0.23.0(ajv@8.13.0)
   '@koumoul/vjsf':
     specifier: ^3.0.0-beta.11
     version: 3.0.0-beta.11(vue@3.4.26)(vuetify@3.6.3)
@@ -1743,6 +1743,16 @@ packages:
 
   /@json-layout/vocabulary@0.15.0(ajv@8.13.0):
     resolution: {integrity: sha512-e3PJeEFsznD2l+SErwZN6FAWl6LyHicDysJQfCdYP0GVqdQAJd3WTGVV8qUAnXx3aKZVYUh0LWrCgcwmlazexg==}
+    dependencies:
+      ajv-formats: 2.1.1(ajv@8.13.0)
+      debug: 4.3.4(supports-color@8.1.1)
+    transitivePeerDependencies:
+      - ajv
+      - supports-color
+    dev: false
+
+  /@json-layout/vocabulary@0.23.0(ajv@8.13.0):
+    resolution: {integrity: sha512-zaLs3kswXmrjelksCJDIS/2v8Grm1ukMhb6WXm03gN86l4hIlJgNgV3GlbqJcu3KSCEuJcB8DHbKp55bkbmiJg==}
     dependencies:
       ajv-formats: 2.1.1(ajv@8.13.0)
       debug: 4.3.4(supports-color@8.1.1)
