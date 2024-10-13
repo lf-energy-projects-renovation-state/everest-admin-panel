@@ -21,8 +21,8 @@ importers:
         specifier: ^0.15.1
         version: 0.15.1
       '@json-layout/vocabulary':
-        specifier: ^0.15.0
-        version: 0.15.0(ajv@8.13.0)
+        specifier: ^0.23.0
+        version: 0.23.2
       '@koumoul/vjsf':
         specifier: ^3.0.0-beta.11
         version: 3.0.0-beta.11(vue@3.4.26(typescript@5.3.3))(vuetify@3.6.3)
@@ -919,6 +919,9 @@ packages:
 
   '@json-layout/vocabulary@0.15.0':
     resolution: {integrity: sha512-e3PJeEFsznD2l+SErwZN6FAWl6LyHicDysJQfCdYP0GVqdQAJd3WTGVV8qUAnXx3aKZVYUh0LWrCgcwmlazexg==}
+
+  '@json-layout/vocabulary@0.23.2':
+    resolution: {integrity: sha512-CDQ/nFZmcMdhn0Ud/f5Q3IoRemQQdw2CPm5pufRqo27T71JhIw12KluVW1jsZWlwK3v7q7yqOoVS8Ax9bUOQ4w==}
 
   '@koumoul/vjsf@3.0.0-beta.11':
     resolution: {integrity: sha512-3WyiuwpP8gQ9HbDjF5F0Whj4MeeR3FvDvsQ6tJoTLfQ1a1ZEmrJhRmPIwye00+nLHDLKd3HKWdbdHj3oFqwEww==}
@@ -4401,6 +4404,15 @@ snapshots:
       - ajv
       - supports-color
 
+  '@json-layout/vocabulary@0.23.2':
+    dependencies:
+      ajv: 8.17.1
+      ajv-errors: 3.0.0(ajv@8.17.1)
+      ajv-formats: 2.1.1(ajv@8.17.1)
+      debug: 4.3.7
+    transitivePeerDependencies:
+      - supports-color
+
   '@koumoul/vjsf@3.0.0-beta.11(vue@3.4.26(typescript@5.3.3))(vuetify@3.6.3)':
     dependencies:
       '@json-layout/core': 0.15.1
@@ -4883,9 +4895,17 @@ snapshots:
     dependencies:
       ajv: 8.13.0
 
+  ajv-errors@3.0.0(ajv@8.17.1):
+    dependencies:
+      ajv: 8.17.1
+
   ajv-formats@2.1.1(ajv@8.13.0):
     optionalDependencies:
       ajv: 8.13.0
+
+  ajv-formats@2.1.1(ajv@8.17.1):
+    optionalDependencies:
+      ajv: 8.17.1
 
   ajv-formats@3.0.1(ajv@8.13.0):
     optionalDependencies:
