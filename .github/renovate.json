@@ -1,9 +1,0 @@
-{
-    "extends": [
-        ":assigneeAndReview(lukas-mertens)",
-        ":automergeLinters",
-        ":automergePatch",
-        ":gitSignOff",
-        ":semanticCommitTypeAll(chore)"
-    ]
-}
