@@ -64,7 +64,7 @@ importers:
         version: 6.2.0
       konva:
         specifier: ^9.3.6
-        version: 9.3.6
+        version: 9.3.15
       markdown-it:
         specifier: ^14.1.0
         version: 14.1.0
@@ -2385,8 +2385,8 @@ packages:
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
-  konva@9.3.6:
-    resolution: {integrity: sha512-dqR8EbcM0hjuilZCBP6xauQ5V3kH3m9kBcsDkqPypQuRgsXbcXUrxqYxhNbdvKZpYNW8Amq94jAD/C0NY3qfBQ==}
+  konva@9.3.15:
+    resolution: {integrity: sha512-6jceV1u75a41Fwky7HIg7Xr092sn9g+emE/F4KrkNey9j5IwM/No91z4g13P9kbh0NePzC20YvfyGVS5EzliUA==}
 
   lazy-ass@1.6.0:
     resolution: {integrity: sha512-cc8oEVoctTvsFZ/Oje/kGnHbpWHYBe8IAJe4C0QNc3t8uM/0Y8+erSz/7Y1ALuXTEZTMvxXwO6YbX1ey3ujiZw==}
@@ -6007,7 +6007,7 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  konva@9.3.6: {}
+  konva@9.3.15: {}
 
   lazy-ass@1.6.0: {}
 
