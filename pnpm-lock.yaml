@@ -92,7 +92,7 @@ importers:
     devDependencies:
       '@babel/types':
         specifier: ^7.24.5
-        version: 7.24.9
+        version: 7.26.0
       '@faker-js/faker':
         specifier: ^9.0.0
         version: 9.2.0
@@ -673,10 +673,6 @@ packages:
 
   '@babel/traverse@7.25.9':
     resolution: {integrity: sha512-ZCuvfwOwlz/bawvAuvcj8rrithP2/N55Tzz342AkTvq4qaWbGfmCk/tKhNaV2cthijKrPAA8SRJV5WWe7IBMJw==}
-    engines: {node: '>=6.9.0'}
-
-  '@babel/types@7.24.9':
-    resolution: {integrity: sha512-xm8XrMKz0IlUdocVbYJe0Z9xEgidU7msskG8BbhnTPK/HZ2z/7FP7ykqPgrUH+C+r414mNfNWam1f2vqOjqjYQ==}
     engines: {node: '>=6.9.0'}
 
   '@babel/types@7.26.0':
@@ -3048,10 +3044,6 @@ packages:
     resolution: {integrity: sha512-nZD7m9iCPC5g0pYmcaxogYKggSfLsdxl8of3Q/oIbqCqLLIO9IAF0GWjX1z9NZRHPiXv8Wex4yDCaZsgEw0Y8w==}
     engines: {node: '>=14.14'}
 
-  to-fast-properties@2.0.0:
-    resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}
-    engines: {node: '>=4'}
-
   to-regex-range@5.0.1:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
@@ -3639,7 +3631,7 @@ snapshots:
 
   '@babel/parser@7.24.0':
     dependencies:
-      '@babel/types': 7.24.9
+      '@babel/types': 7.26.0
 
   '@babel/parser@7.25.8':
     dependencies:
@@ -4130,12 +4122,6 @@ snapshots:
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
-
-  '@babel/types@7.24.9':
-    dependencies:
-      '@babel/helper-string-parser': 7.25.9
-      '@babel/helper-validator-identifier': 7.25.9
-      to-fast-properties: 2.0.0
 
   '@babel/types@7.26.0':
     dependencies:
@@ -6071,7 +6057,7 @@ snapshots:
   magicast@0.3.3:
     dependencies:
       '@babel/parser': 7.24.0
-      '@babel/types': 7.24.9
+      '@babel/types': 7.26.0
       source-map-js: 1.0.2
 
   magicast@0.3.5:
@@ -6650,8 +6636,6 @@ snapshots:
   tinyspy@3.0.2: {}
 
   tmp@0.2.3: {}
-
-  to-fast-properties@2.0.0: {}
 
   to-regex-range@5.0.1:
     dependencies:
