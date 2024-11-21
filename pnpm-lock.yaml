@@ -16,7 +16,7 @@ importers:
         version: 5.0.15
       '@highlightjs/vue-plugin':
         specifier: ^2.1.0
-        version: 2.1.0(highlight.js@11.9.0)(vue@3.5.12(typescript@5.3.3))
+        version: 2.1.0(highlight.js@11.10.0)(vue@3.5.12(typescript@5.3.3))
       '@json-layout/core':
         specifier: ^0.32.1
         version: 0.32.1
@@ -55,7 +55,7 @@ importers:
         version: 4.3.4(supports-color@8.1.1)
       highlight.js:
         specifier: ^11.9.0
-        version: 11.9.0
+        version: 11.10.0
       js-yaml:
         specifier: ^4.1.0
         version: 4.1.0
@@ -2102,8 +2102,8 @@ packages:
     resolution: {integrity: sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw==}
     hasBin: true
 
-  highlight.js@11.9.0:
-    resolution: {integrity: sha512-fJ7cW7fQGCYAkgv4CPfwFHrfd/cLS4Hau96JuJ+ZTOWhjnhoeN1ub1tFmALm/+lW5z4WCAuAV9bm05AP0mS6Gw==}
+  highlight.js@11.10.0:
+    resolution: {integrity: sha512-SYVnVFswQER+zu1laSya563s+F8VDGt7o35d4utbamowvUNLLMovFqwCLSocpZTz3MgaSRA1IbqRWZv97dtErQ==}
     engines: {node: '>=12.0.0'}
 
   html-escaper@2.0.2:
@@ -4258,9 +4258,9 @@ snapshots:
 
   '@fontsource/roboto@5.0.15': {}
 
-  '@highlightjs/vue-plugin@2.1.0(highlight.js@11.9.0)(vue@3.5.12(typescript@5.3.3))':
+  '@highlightjs/vue-plugin@2.1.0(highlight.js@11.10.0)(vue@3.5.12(typescript@5.3.3))':
     dependencies:
-      highlight.js: 11.9.0
+      highlight.js: 11.10.0
       vue: 3.5.12(typescript@5.3.3)
 
   '@humanwhocodes/config-array@0.11.14':
@@ -5737,7 +5737,7 @@ snapshots:
 
   he@1.2.0: {}
 
-  highlight.js@11.9.0: {}
+  highlight.js@11.10.0: {}
 
   html-escaper@2.0.2: {}
 
