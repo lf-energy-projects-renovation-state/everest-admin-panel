@@ -73,7 +73,7 @@ importers:
         version: 3.10.0
       pinia:
         specifier: ^2.1.7
-        version: 2.1.7(typescript@5.3.3)(vue@3.5.12(typescript@5.3.3))
+        version: 2.2.6(typescript@5.3.3)(vue@3.5.12(typescript@5.3.3))
       splitpanes:
         specifier: ^3.1.5
         version: 3.1.5
@@ -1283,6 +1283,9 @@ packages:
 
   '@vue/devtools-api@6.6.1':
     resolution: {integrity: sha512-LgPscpE3Vs0x96PzSSB4IGVSZXZBZHpfxs+ZA1d+VEPwHdOXowy/Y2CsvCAIFrf+ssVU1pD1jidj505EpUnfbA==}
+
+  '@vue/devtools-api@6.6.4':
+    resolution: {integrity: sha512-sGhTPMuXqZ1rVOk32RylztWkfXTRhuS7vgAKv0zjqk8gbsHkJ7xfFf+jbySxt7tWObEJwyKaHMikV/WGDiQm8g==}
 
   '@vue/eslint-config-typescript@13.0.0':
     resolution: {integrity: sha512-MHh9SncG/sfqjVqjcuFLOLD6Ed4dRAis4HNt0dXASeAuLqIAx4YMB1/m2o4pUKK1vCt8fUvYG8KKX2Ot3BVZTg==}
@@ -2661,12 +2664,12 @@ packages:
     resolution: {integrity: sha512-udgsAY+fTnvv7kI7aaxbqwWNb0AHiB0qBO89PZKPkoTmGOgdbrHDKD+0B2X4uTfJ/FT1R09r9gTsjUjNJotuog==}
     engines: {node: '>=0.10.0'}
 
-  pinia@2.1.7:
-    resolution: {integrity: sha512-+C2AHFtcFqjPih0zpYuvof37SFxMQ7OEG2zV9jRI12i9BOy3YQVAHwdKtyyc8pDcDyIc33WCIsZaCFWU7WWxGQ==}
+  pinia@2.2.6:
+    resolution: {integrity: sha512-vIsR8JkDN5Ga2vAxqOE2cJj4VtsHnzpR1Fz30kClxlh0yCHfec6uoMeM3e/ddqmwFUejK3NlrcQa/shnpyT4hA==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
-      vue: ^2.6.14 || ^3.3.0
+      vue: ^2.6.14 || ^3.5.11
     peerDependenciesMeta:
       '@vue/composition-api':
         optional: true
@@ -3290,8 +3293,8 @@ packages:
   vscode-uri@3.0.8:
     resolution: {integrity: sha512-AyFQ0EVmsOZOlAnxoFOGOq1SQDWAB7C6aqMGS23svWAllfOaxbuFvcT8D1i8z3Gyn8fraVeZNNmN6e9bxxXkKw==}
 
-  vue-demi@0.14.6:
-    resolution: {integrity: sha512-8QA7wrYSHKaYgUxDA5ZC24w+eHm3sYCbp0EzcDwKqN3p6HqtTCGR/GVsPyZW92unff4UlcSh++lmqDWN3ZIq4w==}
+  vue-demi@0.14.10:
+    resolution: {integrity: sha512-nMZBOwuzabUO0nLgIcc6rycZEebF6eeUfaiQx9+WSk8e29IbLvPU9feI6tqW4kTo3hvoYAJkMh8n8D0fuISphg==}
     engines: {node: '>=12'}
     hasBin: true
     peerDependencies:
@@ -4780,6 +4783,8 @@ snapshots:
 
   '@vue/devtools-api@6.6.1': {}
 
+  '@vue/devtools-api@6.6.4': {}
+
   '@vue/eslint-config-typescript@13.0.0(eslint-plugin-vue@9.25.0(eslint@8.57.0))(eslint@8.57.0)(typescript@5.3.3)':
     dependencies:
       '@typescript-eslint/eslint-plugin': 7.8.0(@typescript-eslint/parser@7.8.0(eslint@8.57.0)(typescript@5.3.3))(eslint@8.57.0)(typescript@5.3.3)
@@ -4842,7 +4847,7 @@ snapshots:
       '@types/web-bluetooth': 0.0.20
       '@vueuse/metadata': 10.7.1
       '@vueuse/shared': 10.7.1(vue@3.5.12(typescript@5.3.3))
-      vue-demi: 0.14.6(vue@3.5.12(typescript@5.3.3))
+      vue-demi: 0.14.10(vue@3.5.12(typescript@5.3.3))
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -4851,7 +4856,7 @@ snapshots:
 
   '@vueuse/shared@10.7.1(vue@3.5.12(typescript@5.3.3))':
     dependencies:
-      vue-demi: 0.14.6(vue@3.5.12(typescript@5.3.3))
+      vue-demi: 0.14.10(vue@3.5.12(typescript@5.3.3))
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -6270,11 +6275,11 @@ snapshots:
 
   pify@2.3.0: {}
 
-  pinia@2.1.7(typescript@5.3.3)(vue@3.5.12(typescript@5.3.3)):
+  pinia@2.2.6(typescript@5.3.3)(vue@3.5.12(typescript@5.3.3)):
     dependencies:
-      '@vue/devtools-api': 6.5.1
+      '@vue/devtools-api': 6.6.4
       vue: 3.5.12(typescript@5.3.3)
-      vue-demi: 0.14.6(vue@3.5.12(typescript@5.3.3))
+      vue-demi: 0.14.10(vue@3.5.12(typescript@5.3.3))
     optionalDependencies:
       typescript: 5.3.3
 
@@ -6909,7 +6914,7 @@ snapshots:
 
   vscode-uri@3.0.8: {}
 
-  vue-demi@0.14.6(vue@3.5.12(typescript@5.3.3)):
+  vue-demi@0.14.10(vue@3.5.12(typescript@5.3.3)):
     dependencies:
       vue: 3.5.12(typescript@5.3.3)
 
