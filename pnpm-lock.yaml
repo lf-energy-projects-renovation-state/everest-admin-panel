@@ -12,8 +12,8 @@ importers:
         specifier: ^4.5.5
         version: 4.5.5
       '@fontsource/roboto':
-        specifier: 5.0.15
-        version: 5.0.15
+        specifier: 5.1.1
+        version: 5.1.1
       '@highlightjs/vue-plugin':
         specifier: ^2.1.0
         version: 2.1.0(highlight.js@11.9.0)(vue@3.5.12(typescript@5.3.3))
@@ -850,8 +850,8 @@ packages:
   '@fontsource/open-sans-condensed@4.5.5':
     resolution: {integrity: sha512-ah6DBSWgjWEG20tVJnvcUQ/8XTfnGpuOGK4HLTF91vtrGg7PyrdEMlao/O1+S4i+SzeuJCmf5Qbc3eWponBL3Q==}
 
-  '@fontsource/roboto@5.0.15':
-    resolution: {integrity: sha512-352XiID9jfwmYaHpdmS3ocGJi3PA+vOm4HzJIRfSyPEyLP6dZN8iiEKUbdAfB5YXQO3YxO2KZpR+R28q2zMiYw==}
+  '@fontsource/roboto@5.1.1':
+    resolution: {integrity: sha512-XwVVXtERDQIM7HPUIbyDe0FP4SRovpjF7zMI8M7pbqFp3ahLJsJTd18h+E6pkar6UbV3btbwkKjYARr5M+SQow==}
 
   '@highlightjs/vue-plugin@2.1.0':
     resolution: {integrity: sha512-E+bmk4ncca+hBEYRV2a+1aIzIV0VSY/e5ArjpuSN9IO7wBJrzUE2u4ESCwrbQD7sAy+jWQjkV5qCCWgc+pu7CQ==}
@@ -4278,7 +4278,7 @@ snapshots:
 
   '@fontsource/open-sans-condensed@4.5.5': {}
 
-  '@fontsource/roboto@5.0.15': {}
+  '@fontsource/roboto@5.1.1': {}
 
   '@highlightjs/vue-plugin@2.1.0(highlight.js@11.9.0)(vue@3.5.12(typescript@5.3.3))':
     dependencies:
