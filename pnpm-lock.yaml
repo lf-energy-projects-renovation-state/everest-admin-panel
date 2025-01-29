@@ -18,8 +18,8 @@ importers:
         specifier: ^2.1.0
         version: 2.1.0(highlight.js@11.9.0)(vue@3.5.12(typescript@5.3.3))
       '@json-layout/core':
-        specifier: ^0.32.1
-        version: 0.32.1
+        specifier: ^1.0.0
+        version: 1.4.1
       '@json-layout/vocabulary':
         specifier: ^0.23.2
         version: 0.23.2
@@ -918,8 +918,14 @@ packages:
   '@json-layout/core@0.32.1':
     resolution: {integrity: sha512-/x+D8epj48MKPlDTKE7lgwjd6ThFF99+fZwxwuActV3XAFwE55bu0sK45i9yDoTkgEHHWCDlxlOdDkJP0hRQ/g==}
 
+  '@json-layout/core@1.4.1':
+    resolution: {integrity: sha512-6hO3DbjW6BxJ0JgcLgSksX5THTbE2Kpx5rHkDc105P8MVCQrpn9AkidcAirwtp5sD1NFabK70PyOiKR7dS7fQw==}
+
   '@json-layout/vocabulary@0.23.2':
     resolution: {integrity: sha512-CDQ/nFZmcMdhn0Ud/f5Q3IoRemQQdw2CPm5pufRqo27T71JhIw12KluVW1jsZWlwK3v7q7yqOoVS8Ax9bUOQ4w==}
+
+  '@json-layout/vocabulary@1.4.1':
+    resolution: {integrity: sha512-7z1Mv302PClbV701m291+m8tiMRHLvQKbVR/RLqiFVq2zUMc+DhvlEb/58PR0tt1xxRJX7mLvTCVfDw2h9NaUw==}
 
   '@koumoul/vjsf@3.0.0-beta.46':
     resolution: {integrity: sha512-dp9EuyZrZNRHb5+8eLMHWNEI9HPhpLoeOWzDWj43tE+162mGmhi42SqVMS5fbx73ZHF2FHe4jZszgdj0MiYB2A==}
@@ -2558,6 +2564,11 @@ packages:
 
   markdown-it@14.1.0:
     resolution: {integrity: sha512-a54IwgWPaeBCAAsv13YgmALOF1elABB08FxO9i+r4VFk5Vl4pKokRPeX8u5TCgSsPi6ec1otfLjdOpVcgbpshg==}
+    hasBin: true
+
+  marked@14.1.4:
+    resolution: {integrity: sha512-vkVZ8ONmUdPnjCKc5uTRvmkRbx4EAi2OkTOXmfTDhZz3OFqMNBM1oTTWwTr4HY4uAEojhzPf+Fy8F1DWa3Sndg==}
+    engines: {node: '>= 18'}
     hasBin: true
 
   math-intrinsics@1.1.0:
@@ -4472,12 +4483,35 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
+  '@json-layout/core@1.4.1':
+    dependencies:
+      '@json-layout/vocabulary': 1.4.1
+      ajv: 8.17.1
+      ajv-errors: 3.0.0(ajv@8.17.1)
+      ajv-formats: 2.1.1(ajv@8.17.1)
+      ajv-i18n: 4.2.0(ajv@8.17.1)
+      debug: 4.4.0
+      immer: 10.0.3
+      magicast: 0.3.5
+      marked: 14.1.4
+    transitivePeerDependencies:
+      - supports-color
+
   '@json-layout/vocabulary@0.23.2':
     dependencies:
       ajv: 8.17.1
       ajv-errors: 3.0.0(ajv@8.17.1)
       ajv-formats: 2.1.1(ajv@8.17.1)
       debug: 4.3.7
+    transitivePeerDependencies:
+      - supports-color
+
+  '@json-layout/vocabulary@1.4.1':
+    dependencies:
+      ajv: 8.17.1
+      ajv-errors: 3.0.0(ajv@8.17.1)
+      ajv-formats: 2.1.1(ajv@8.17.1)
+      debug: 4.4.0
     transitivePeerDependencies:
       - supports-color
 
@@ -6342,6 +6376,8 @@ snapshots:
       mdurl: 2.0.0
       punycode.js: 2.3.1
       uc.micro: 2.1.0
+
+  marked@14.1.4: {}
 
   math-intrinsics@1.1.0: {}
 
