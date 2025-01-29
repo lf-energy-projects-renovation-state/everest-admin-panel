@@ -16,7 +16,7 @@
     "@fontsource/open-sans-condensed": "^4.5.5",
     "@fontsource/roboto": "5.0.15",
     "@highlightjs/vue-plugin": "^2.1.0",
-    "@json-layout/core": "^0.32.1",
+    "@json-layout/core": "^1.0.0",
     "@json-layout/vocabulary": "^0.23.2",
     "@koumoul/vjsf": "^3.0.0-beta.46",
     "@mdi/font": "^7.4.47",
