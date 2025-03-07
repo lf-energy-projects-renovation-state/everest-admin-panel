@@ -21,8 +21,8 @@ importers:
         specifier: ^1.4.4
         version: 1.4.4
       '@json-layout/vocabulary':
-        specifier: ^1.4.2
-        version: 1.4.2
+        specifier: ^2.0.0
+        version: 2.1.0
       '@koumoul/vjsf':
         specifier: ^3.10.2
         version: 3.10.2(typescript@5.5.4)(vue@3.5.13(typescript@5.5.4))(vuetify@3.7.13)
@@ -929,6 +929,9 @@ packages:
 
   '@json-layout/vocabulary@1.4.2':
     resolution: {integrity: sha512-I2aT9jVUXCLHBEdWynOfDbPJ7KK117wm4jxxSzsDDF+T8fSEbpU/nIy0k/5g/kh9a9vQ65uejQoM7JYY4F3oBg==}
+
+  '@json-layout/vocabulary@2.1.0':
+    resolution: {integrity: sha512-5B6jMvxGU9+jONoY7tDVfWuPT9vjyPwz4YHWCtysNwDKaWHnMCv/1JdHH1EcyQXMh4BlXGsSLKmOKo9OtG+Uew==}
 
   '@koumoul/vjsf@3.10.2':
     resolution: {integrity: sha512-1HH0ZNOrSHtl9DZEvY4tbwH+gbxiFmOU4ERQwvR6wvFeMFXjFc/9ule/ioe4ZOqjkAF1s5yQrngZketEjHI1jg==}
@@ -4600,6 +4603,15 @@ snapshots:
       - supports-color
 
   '@json-layout/vocabulary@1.4.2':
+    dependencies:
+      ajv: 8.17.1
+      ajv-errors: 3.0.0(ajv@8.17.1)
+      ajv-formats: 3.0.1(ajv@8.17.1)
+      debug: 4.4.0(supports-color@8.1.1)
+    transitivePeerDependencies:
+      - supports-color
+
+  '@json-layout/vocabulary@2.1.0':
     dependencies:
       ajv: 8.17.1
       ajv-errors: 3.0.0(ajv@8.17.1)
