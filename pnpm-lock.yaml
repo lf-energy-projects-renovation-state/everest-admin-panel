@@ -18,8 +18,8 @@ importers:
         specifier: ^2.1.0
         version: 2.1.0(highlight.js@11.11.1)(vue@3.5.13(typescript@5.5.4))
       '@koumoul/vjsf':
-        specifier: 3.14.0
-        version: 3.14.0(typescript@5.5.4)(vue@3.5.13(typescript@5.5.4))(vuetify@3.7.13)
+        specifier: 3.15.0
+        version: 3.15.0(typescript@5.5.4)(vue@3.5.13(typescript@5.5.4))(vuetify@3.7.13)
       '@mdi/font':
         specifier: ^7.4.47
         version: 7.4.47
@@ -71,7 +71,7 @@ importers:
     devDependencies:
       '@babel/types':
         specifier: ^7.26.9
-        version: 7.26.9
+        version: 7.27.0
       '@eslint/js':
         specifier: ^9.21.0
         version: 9.21.0
@@ -646,10 +646,6 @@ packages:
     resolution: {integrity: sha512-19lYZFzYVQkkHkl4Cy4WrAVcqBkgvV2YM2TU3xG6DIwO7O3ecbDPfW3yM3bjAGcqcQHi+CCtjMR3dIEHxsd6bA==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/types@7.26.9':
-    resolution: {integrity: sha512-Y3IR1cRnOxOCDvMmNiym7XpXQ93iGDDPHx+Zj+NM+rg0fBaShfQLkg+hKPaZCEvg5N/LeCo4+Rj/i3FuJsIQaw==}
-    engines: {node: '>=6.9.0'}
-
   '@babel/types@7.27.0':
     resolution: {integrity: sha512-H45s8fVLYjbhFH62dIJ3WtmJ6RSPt/3DRO0ZcT2SUiYiQyz3BLVb9ADEnLl91m74aQPS3AzzeajZHYOalWe3bg==}
     engines: {node: '>=6.9.0'}
@@ -844,6 +840,7 @@ packages:
   '@faker-js/faker@9.5.0':
     resolution: {integrity: sha512-3qbjLv+fzuuCg3umxc9/7YjrEXNaKwHgmig949nfyaTx8eL4FAsvFbu+1JcFUj1YAXofhaDn6JdEUBTYuk0Ssw==}
     engines: {node: '>=18.0.0', npm: '>=9.0.0'}
+    deprecated: Please update to a newer version
 
   '@fontsource/open-sans-condensed@4.5.5':
     resolution: {integrity: sha512-ah6DBSWgjWEG20tVJnvcUQ/8XTfnGpuOGK4HLTF91vtrGg7PyrdEMlao/O1+S4i+SzeuJCmf5Qbc3eWponBL3Q==}
@@ -899,16 +896,16 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@json-layout/core@1.10.0':
-    resolution: {integrity: sha512-74XmYxWzl4aAUBJy98LeURIb6pEDKNd4Bo0u1JmklShhQsebBQ0EAJK8jjqEeAt8EAhkSkxo5BG9TXK64OxV4Q==}
+  '@json-layout/core@1.10.1':
+    resolution: {integrity: sha512-Ub3YoT1tcNGTLwZzozduCdgteytA6VKgMycxohJNfHF3x9nu2Utrd+mk48t6Ac/klleFpeDr7fURAmdCqNodFg==}
     peerDependencies:
       '@json-layout/vocabulary': ^2.3.0
 
   '@json-layout/vocabulary@2.3.0':
     resolution: {integrity: sha512-38ieAJb4p5Z5CJ6lv+K0MvBGFTuNPtshxxmWBkVIc/BvM1iPniMxv6+MjOzjgay2Bnu3PvP03yoyEXA/LM6uyA==}
 
-  '@koumoul/vjsf@3.14.0':
-    resolution: {integrity: sha512-sZube/Pd1E2BOcoHRUQW5ngAvYaWku6nFZqnwWI81kSXgxHfT66cOBM7189771GPR2iZgSDCjdwhDflvC3xUow==}
+  '@koumoul/vjsf@3.15.0':
+    resolution: {integrity: sha512-o/z1ofQGhZ2wGZ9YhWSgDU7JJEFkMjMn9UkapTvFPzjC2Fg4cfbk17JLBhSpQ6UThMQdx+kjceJgA8r0Tn4Kvg==}
     peerDependencies:
       vue: ^3.4.3
       vuetify: ^3.6.13
@@ -3740,7 +3737,7 @@ snapshots:
 
   '@babel/parser@7.26.9':
     dependencies:
-      '@babel/types': 7.26.9
+      '@babel/types': 7.27.0
 
   '@babel/parser@7.27.0':
     dependencies:
@@ -4224,11 +4221,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@babel/types@7.26.9':
-    dependencies:
-      '@babel/helper-string-parser': 7.25.9
-      '@babel/helper-validator-identifier': 7.25.9
-
   '@babel/types@7.27.0':
     dependencies:
       '@babel/helper-string-parser': 7.25.9
@@ -4423,7 +4415,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@json-layout/core@1.10.0(@json-layout/vocabulary@2.3.0)':
+  '@json-layout/core@1.10.1(@json-layout/vocabulary@2.3.0)':
     dependencies:
       '@json-layout/vocabulary': 2.3.0
       ajv: 8.17.1
@@ -4446,9 +4438,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@koumoul/vjsf@3.14.0(typescript@5.5.4)(vue@3.5.13(typescript@5.5.4))(vuetify@3.7.13)':
+  '@koumoul/vjsf@3.15.0(typescript@5.5.4)(vue@3.5.13(typescript@5.5.4))(vuetify@3.7.13)':
     dependencies:
-      '@json-layout/core': 1.10.0(@json-layout/vocabulary@2.3.0)
+      '@json-layout/core': 1.10.1(@json-layout/vocabulary@2.3.0)
       '@json-layout/vocabulary': 2.3.0
       '@vueuse/core': 12.7.0(typescript@5.5.4)
       debug: 4.4.0(supports-color@8.1.1)
@@ -6246,7 +6238,7 @@ snapshots:
   magicast@0.3.5:
     dependencies:
       '@babel/parser': 7.26.9
-      '@babel/types': 7.26.9
+      '@babel/types': 7.27.0
       source-map-js: 1.2.1
 
   make-dir@4.0.0:
