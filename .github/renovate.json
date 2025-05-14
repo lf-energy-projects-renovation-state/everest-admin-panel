@@ -1,9 +1,0 @@
-{
-    "extends": [
-        ":assignAndReview(lukas-mertens)",
-        ":automergeLinters",
-        ":automergePatch",
-        ":gitSignOff",
-        ":semanticCommitTypeAll(chore)"
-    ]
-}
