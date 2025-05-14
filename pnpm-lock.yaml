@@ -18,8 +18,8 @@ importers:
         specifier: ^2.1.0
         version: 2.1.0(highlight.js@11.11.1)(vue@3.5.13(typescript@5.5.4))
       '@koumoul/vjsf':
-        specifier: 3.14.0
-        version: 3.14.0(typescript@5.5.4)(vue@3.5.13(typescript@5.5.4))(vuetify@3.7.13)
+        specifier: 3.15.1
+        version: 3.15.1(typescript@5.5.4)(vue@3.5.13(typescript@5.5.4))(vuetify@3.7.13)
       '@mdi/font':
         specifier: ^7.4.47
         version: 7.4.47
@@ -71,7 +71,7 @@ importers:
     devDependencies:
       '@babel/types':
         specifier: ^7.26.9
-        version: 7.26.9
+        version: 7.27.1
       '@eslint/js':
         specifier: ^9.21.0
         version: 9.21.0
@@ -236,16 +236,8 @@ packages:
     resolution: {integrity: sha512-Tub4ZKEXqbPjXgWLl2+3JpQAYBJ8+ikpQ2Ocj/q/r0LwE3UhENh7EUabyHjz2kCEsrRY83ew2DQdHluuiDQFzg==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/helper-string-parser@7.25.9':
-    resolution: {integrity: sha512-4A/SCr/2KLd5jrtOMFzaKjVtAei3+2r/NChoBNoZ3EyP/+GlhoaEGoWOZUmFmoITP7zOJyHIMm+DYRd8o3PvHA==}
-    engines: {node: '>=6.9.0'}
-
   '@babel/helper-string-parser@7.27.1':
     resolution: {integrity: sha512-qMlSxKbpRlAridDExk92nSobyDdpPijUq2DW6oDnUqd0iOGxmQjyqhMIihI9+zv4LPyZdRje2cavWPbCbWm3eA==}
-    engines: {node: '>=6.9.0'}
-
-  '@babel/helper-validator-identifier@7.25.9':
-    resolution: {integrity: sha512-Ed61U6XJc3CVRfkERJWDz4dJwKe7iLmmJsbOGu9wSloNSFttHV0I8g6UAgb7qnK5ly5bGLPd4oXZlxCdANBOWQ==}
     engines: {node: '>=6.9.0'}
 
   '@babel/helper-validator-identifier@7.27.1':
@@ -651,10 +643,6 @@ packages:
     resolution: {integrity: sha512-ZCYtZciz1IWJB4U61UPu4KEaqyfj+r5T1Q5mqPo+IBpcG9kHv30Z0aD8LXPgC1trYa6rK0orRyAhqUgk4MjmEg==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/types@7.26.9':
-    resolution: {integrity: sha512-Y3IR1cRnOxOCDvMmNiym7XpXQ93iGDDPHx+Zj+NM+rg0fBaShfQLkg+hKPaZCEvg5N/LeCo4+Rj/i3FuJsIQaw==}
-    engines: {node: '>=6.9.0'}
-
   '@babel/types@7.27.1':
     resolution: {integrity: sha512-+EzkxvLNfiUeKMgy/3luqfsCWFRXLb7U6wNQTk60tovuckwB15B191tJWvpp4HjiQWdJkCxO3Wbvc6jlk3Xb2Q==}
     engines: {node: '>=6.9.0'}
@@ -849,6 +837,7 @@ packages:
   '@faker-js/faker@9.5.0':
     resolution: {integrity: sha512-3qbjLv+fzuuCg3umxc9/7YjrEXNaKwHgmig949nfyaTx8eL4FAsvFbu+1JcFUj1YAXofhaDn6JdEUBTYuk0Ssw==}
     engines: {node: '>=18.0.0', npm: '>=9.0.0'}
+    deprecated: Please update to a newer version
 
   '@fontsource/open-sans-condensed@4.5.5':
     resolution: {integrity: sha512-ah6DBSWgjWEG20tVJnvcUQ/8XTfnGpuOGK4HLTF91vtrGg7PyrdEMlao/O1+S4i+SzeuJCmf5Qbc3eWponBL3Q==}
@@ -904,16 +893,16 @@ packages:
   '@jridgewell/trace-mapping@0.3.25':
     resolution: {integrity: sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ==}
 
-  '@json-layout/core@1.10.0':
-    resolution: {integrity: sha512-74XmYxWzl4aAUBJy98LeURIb6pEDKNd4Bo0u1JmklShhQsebBQ0EAJK8jjqEeAt8EAhkSkxo5BG9TXK64OxV4Q==}
+  '@json-layout/core@1.10.2':
+    resolution: {integrity: sha512-2oXj04CosjWvh9LSs4Xt8eSPydYAqzFqqiOlANVmfQgdR0u3nh1Z9e2exPrCSzetZ3kXFq3G1QAAfleQ2qgdGQ==}
     peerDependencies:
-      '@json-layout/vocabulary': ^2.3.0
+      '@json-layout/vocabulary': ^2.3.1
 
   '@json-layout/vocabulary@2.3.0':
     resolution: {integrity: sha512-38ieAJb4p5Z5CJ6lv+K0MvBGFTuNPtshxxmWBkVIc/BvM1iPniMxv6+MjOzjgay2Bnu3PvP03yoyEXA/LM6uyA==}
 
-  '@koumoul/vjsf@3.14.0':
-    resolution: {integrity: sha512-sZube/Pd1E2BOcoHRUQW5ngAvYaWku6nFZqnwWI81kSXgxHfT66cOBM7189771GPR2iZgSDCjdwhDflvC3xUow==}
+  '@koumoul/vjsf@3.15.1':
+    resolution: {integrity: sha512-nP4wx+Nuiny7EHEtBijyGCggki9xxJdshBd5JdC+/cuwMo6ayEYl1rJ1S/iN1jab93sy1R1h70/FWp0oxI8kfw==}
     peerDependencies:
       vue: ^3.4.3
       vuetify: ^3.6.13
@@ -3719,11 +3708,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@babel/helper-string-parser@7.25.9': {}
-
   '@babel/helper-string-parser@7.27.1': {}
-
-  '@babel/helper-validator-identifier@7.25.9': {}
 
   '@babel/helper-validator-identifier@7.27.1': {}
 
@@ -3744,7 +3729,7 @@ snapshots:
 
   '@babel/parser@7.26.9':
     dependencies:
-      '@babel/types': 7.26.9
+      '@babel/types': 7.27.1
 
   '@babel/parser@7.27.1':
     dependencies:
@@ -4225,11 +4210,6 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@babel/types@7.26.9':
-    dependencies:
-      '@babel/helper-string-parser': 7.25.9
-      '@babel/helper-validator-identifier': 7.25.9
-
   '@babel/types@7.27.1':
     dependencies:
       '@babel/helper-string-parser': 7.27.1
@@ -4424,7 +4404,7 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.0
 
-  '@json-layout/core@1.10.0(@json-layout/vocabulary@2.3.0)':
+  '@json-layout/core@1.10.2(@json-layout/vocabulary@2.3.0)':
     dependencies:
       '@json-layout/vocabulary': 2.3.0
       ajv: 8.17.1
@@ -4447,9 +4427,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@koumoul/vjsf@3.14.0(typescript@5.5.4)(vue@3.5.13(typescript@5.5.4))(vuetify@3.7.13)':
+  '@koumoul/vjsf@3.15.1(typescript@5.5.4)(vue@3.5.13(typescript@5.5.4))(vuetify@3.7.13)':
     dependencies:
-      '@json-layout/core': 1.10.0(@json-layout/vocabulary@2.3.0)
+      '@json-layout/core': 1.10.2(@json-layout/vocabulary@2.3.0)
       '@json-layout/vocabulary': 2.3.0
       '@vueuse/core': 12.7.0(typescript@5.5.4)
       debug: 4.4.0(supports-color@8.1.1)
@@ -6244,7 +6224,7 @@ snapshots:
   magicast@0.3.5:
     dependencies:
       '@babel/parser': 7.26.9
-      '@babel/types': 7.26.9
+      '@babel/types': 7.27.1
       source-map-js: 1.2.1
 
   make-dir@4.0.0:
