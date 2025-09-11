@@ -54,8 +54,8 @@ importers:
         specifier: 6.2.0
         version: 6.2.0
       konva:
-        specifier: 9.3.22
-        version: 9.3.22
+        specifier: 10.0.2
+        version: 10.0.2
       notyf:
         specifier: 3.10.0
         version: 3.10.0
@@ -2612,8 +2612,8 @@ packages:
   keyv@4.5.4:
     resolution: {integrity: sha512-oxVHkHR/EJf2CNXnWxRLW6mg7JyCCUcG0DtEGmL2ctUo1PNTin1PUil+r/+4r5MpVgC/fn1kjsx7mjSujKqIpw==}
 
-  konva@9.3.22:
-    resolution: {integrity: sha512-yQI5d1bmELlD/fowuyfOp9ff+oamg26WOCkyqUyc+nczD/lhRa3EvD2MZOoc4c1293TAubW9n34fSQLgSeEgSw==}
+  konva@10.0.2:
+    resolution: {integrity: sha512-NrZED6YG5BX5h3Xu8EZgLqhQ/+ZhxANYXmlIhMOfpBf+0ToExcdwE+Y46LyJOO/JR7FVeR3YTqon3eirnuo44A==}
 
   lazy-ass@1.6.0:
     resolution: {integrity: sha512-cc8oEVoctTvsFZ/Oje/kGnHbpWHYBe8IAJe4C0QNc3t8uM/0Y8+erSz/7Y1ALuXTEZTMvxXwO6YbX1ey3ujiZw==}
@@ -6423,7 +6423,7 @@ snapshots:
     dependencies:
       json-buffer: 3.0.1
 
-  konva@9.3.22: {}
+  konva@10.0.2: {}
 
   lazy-ass@1.6.0: {}
 
