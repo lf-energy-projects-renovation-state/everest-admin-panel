@@ -48,8 +48,8 @@ importers:
         specifier: 11.11.1
         version: 11.11.1
       js-yaml:
-        specifier: 4.3.2
-        version: 4.3.2
+        specifier: 5.4.2
+        version: 5.4.2
       just-clone:
         specifier: 6.2.0
         version: 6.2.0
@@ -2622,6 +2622,10 @@ packages:
 
   js-yaml@4.3.2:
     resolution: {integrity: sha512-SFNOvSJ+Dgf/9An904Yx+CgSlIPCkIpao4qo51lpee25TIRejdH3rhR4EZMGoNx3/TP3O+wzWuiTFl4sqbltzA==}
+    hasBin: true
+
+  js-yaml@5.4.2:
+    resolution: {integrity: sha512-m+aqu+LwO1O6sIopafj8HUVl5aawITwZQe/yHpMCKjaWBaA/d07B/QdMb3529REftiU+RMMHL3Vlsw3hON7vWg==}
     hasBin: true
 
   jsbn@0.1.1:
@@ -6512,6 +6516,10 @@ snapshots:
   js-tokens@9.0.1: {}
 
   js-yaml@4.3.2:
+    dependencies:
+      argparse: 2.0.1
+
+  js-yaml@5.4.2:
     dependencies:
       argparse: 2.0.1
 
